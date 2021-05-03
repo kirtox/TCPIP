@@ -25,7 +25,7 @@
 		- ```gcc -o chatRoom_selectServer chatRoom_selectServer.c```
 		- ```gcc -o chatRoom_selectClient chatRoom_selectClient.c```
 	- Run
-		- ```./chatRoom_selectClient```
+		- ```./chatRoom_selectServer```
 		- ![image](https://github.com/kirtox/TCPIP/blob/main/Chat%20Room/selectServer.png?raw=true)
 		- ```./chatRoom_selectClient```
 		- ![image](https://github.com/kirtox/TCPIP/blob/main/Chat%20Room/selectClient1.png?raw=true)
