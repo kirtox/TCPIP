@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
     
     struct timeval start;
     struct timeval end;
-    int gettimeofday(struct timeval *tv,struct timezone *tz);
+    //int gettimeofday(struct timeval *tv,struct timezone *tz);
 
     struct sockaddr_in address;
     int sock, byte_sent ,byte_recv;

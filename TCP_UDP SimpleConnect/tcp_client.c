@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
     struct timeval start;
     struct timeval end;
     unsigned long diff;
-    int gettimeofday(struct timeval *tv, struct timezone *tz);
+    //int gettimeofday(struct timeval *tv, struct timezone *tz);
 
     sock = socket(PF_INET, SOCK_STREAM, 0);
     if (sock < 0)    printf("Error creating socket!\n");

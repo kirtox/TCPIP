@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
 
     struct timeval start;
     struct timeval end;
-    int gettimeofday(struct timeval *tv,struct timezone *tz);
+    //int gettimeofday(struct timeval *tv,struct timezone *tz);
     unsigned long diff;
     struct sockaddr_in address, client_address;
     int sock, byte_recv, byte_sent, client_address_length;

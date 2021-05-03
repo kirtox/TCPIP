@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
     struct timeval start;
     struct timeval end;
     unsigned long diff;
-    int gettimeofday(struct timeval *tv, struct timezone *tz);
+    //int gettimeofday(struct timeval *tv, struct timezone *tz);
 
     int sock, byte_recv, byte_sent, server_addr_length = sizeof(server_addr), client_addr_length=sizeof(client_addr), recfd;
     double throughput; 
